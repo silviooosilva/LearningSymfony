@@ -5,3 +5,12 @@ controllers:
 app_lucky_number:
   path: /lucky/number
   controller: App\Controller\LuckyController::number
+
+
+
+# ROTAS EM YAML 
+
+blog_list:
+    path: /blog
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\Controller\BlogController::list
